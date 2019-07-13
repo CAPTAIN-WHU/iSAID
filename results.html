@@ -75,13 +75,11 @@
 					<div class="span12">
 						<strong style="color:red">The table can only be shown on chrome now.</strong> 
 						<h1>Leaderboard</h1>
-						<table id="Task1" class="display" style="width:100%">
+						<!-- <table id="Task1" class="display" style="width:100%">
 							<thead>
 								<tr>
 									<th></th>
 									<th>Team Name</th>
-									<!-- <th>Team Member</th> -->
-									<!-- <th>Institute</th> -->
 									<th> mAP</strong> </th>
 									<th>Plane</th>
 									<th>BD</th>
@@ -101,16 +99,10 @@
 									<th>Date</th>
 								</tr>
 							</thead>
-							<!-- <tfoot>
-								<tr>
-									<th></th>
-									<th>Name</th>
-									<th>Position</th>
-									<th>Office</th>
-									<th>Salary</th>
-								</tr>
-							</tfoot> -->
-						</table>
+						</table> -->
+						<p>
+							The Leaderboard is on the way.
+						</p>
 
 					</div>
 				</div>
@@ -153,59 +145,6 @@
 				// '</tr>'
 				'</table>';
 		}
-
-		// function create_table(task) {
-		// 	$(document).ready(function () {
-		// 	var table = $('#' + task).DataTable({
-		// 		"ajax": "leaderboards/" + task + ".txt",
-		// 		"columns": [
-		// 			{
-		// 				"className": 'details-control',
-		// 				"orderable": false,
-		// 				"data": null,
-		// 				"defaultContent": ''
-		// 			},
-		// 			{ "data": "TeamNames" },
-		// 			// { "data": "Team Member" },
-		// 			// { "data": "Institute" },
-		// 			{ "data": "mAP" },
-		// 			{ "data": "Plane"},
-		// 			{ "data": "BD" },
-		// 			{ "data": "Bridge"},
-		// 			{ "data": "GTF" },
-		// 			{ "data": "SV"},
-		// 			{ "data": "LV" },
-		// 			{ "data": "Ship"},
-		// 			{ "data": "TC"},
-		// 			{ "data": "BC" },
-		// 			{ "data": "ST"},
-		// 			{ "data": "SBF" },
-		// 			{ "data": "RA"},
-		// 			{ "data": "Harbor" },
-		// 			{ "data": "SP"},
-		// 			{ "data": "HC"}
-		// 		],
-		// 		"order": [[2, 'dsc']]
-		// 	});
-
-		// 	// Add event listener for opening and closing details
-		// 	$('#Task1 tbody').on('click', 'td.details-control', function () {
-		// 		var tr = $(this).closest('tr');
-		// 		var row = table.row(tr);
-
-		// 		if (row.child.isShown()) {
-		// 			// This row is already open - close it
-		// 			row.child.hide();
-		// 			tr.removeClass('shown');
-		// 		}
-		// 		else {
-		// 			// Open this row
-		// 			row.child(format(row.data())).show();
-		// 			tr.addClass('shown');
-		// 		}
-		// 	});
-		// });
-		// }
 		
 
 		$(document).ready(function () {
